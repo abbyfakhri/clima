@@ -3,6 +3,11 @@ body{
     background-color: #002570;
     font-family: 'Poppins', sans-serif;
     margin: 2rem;
+    background-image: url(/assets/images/background1.png);
+    background-repeat: no-repeat;
+   /*  background-position: bottom right; */
+   background-position: 110% 200%;
+    
     
 
 }
