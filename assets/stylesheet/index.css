@@ -3,10 +3,10 @@ body{
     background-color: #002570;
     font-family: 'Poppins', sans-serif;
     margin: 2rem;
-    background-image: url(/assets/images/background1.png);
+    background-image: url(/assets/images/mountains-4420690__340.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
    /*  background-position: bottom right; */
-   background-position: 110% 200%;
     
     
 
@@ -60,9 +60,9 @@ body{
     border:none;
     height:2rem;
     width: 300px;
-    margin:1rem;
+    margin:10px;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: rgba(255, 255, 255,0.8);
 }
 
