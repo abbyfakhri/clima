@@ -1,15 +1,3 @@
-const forecastDiv = document.querySelector('.forecast');
-
-    forecastDiv.addEventListener('wheel',(event)=>{
-
-            forecastDiv.scrollTo({
-                top: 0,
-                left: forecastDiv.scrollLeft += event.deltaY,
-                duration:1000,
-                behavior: 'smooth',
-            })
-    })
-
 const navIcon = document.getElementsByClassName('icons');
 
 const pageLink = [
@@ -37,4 +25,3 @@ for(let i =0;i<navIcon.length;i++){
         
     })
 }
-    
