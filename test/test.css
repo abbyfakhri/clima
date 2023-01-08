@@ -2,12 +2,53 @@
 body{
     background-color: dimgray;
     font-family: 'Poppins', sans-serif;
+    user-select: none;
 }
 
-.navigation{
-    background-color:aliceblue;
+.container{
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius:20px;
 }
+
+.carousel-container{
+
+    background-color: aliceblue;
+    width: 700px;
+    
+    border-radius: 40px;
+    transform: translateY(25%);
+    box-shadow: -5px 5px 30px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+
+.image-container{
+    margin: 0;
+    
+}
+
+.image-container img{
+
+    border-radius: 20px;
+    margin: 0;
+    box-shadow: -4px 5px 30px;
+    width: 600px;
+    height: 400px;
+    transition: all 0.5s;
+}
+
+.slide-out {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  
+  .slide-in {
+    transform: translateX(100%);
+    opacity: 0;
+  }
