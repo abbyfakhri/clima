@@ -1,0 +1,305 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+body{
+    
+    background: linear-gradient(180deg, #FFFFFF 51.9%, #586BAC 112.78%);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 2rem;
+    margin-top: 0;
+    font-family: 'Poppins', sans-serif;
+    
+    user-select: none;
+    
+}
+
+
+.header{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+   /*  background-image: url(/assets/images/sun.png); */
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 15%;
+}
+
+
+
+.user h1{
+    color: rgba(242, 180, 17, 1);
+    font-size: 30px;
+    font-weight: 400px;
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.user h2{
+    color:rgba(37, 66, 166, 1);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0;
+}
+.search{
+    padding: 20px;
+    padding-left: 0;
+    margin-top: 10px;
+    
+}
+
+.search-container{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.search-form{
+    width: 500px;
+    height: 40px;
+    background: #D9D9D9;
+    border-radius: 20px 0px 0px 20px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    border: 0;
+    outline: 0;
+    padding: 5px;
+    color: #5a5656;
+    font-weight: lighter;
+    
+}
+
+.search-btn{
+    border: none;
+    background: transparent;
+    margin: none;
+    padding: none;
+    background: #D9D9D9;
+    height: 50px;
+    border-radius: 0px 20px 20px 0px;
+
+
+}
+
+.search-btn img{
+    height: 20px;
+    margin: none;
+    padding: none;
+    padding: 5px;
+    cursor: pointer;
+
+}
+
+.search-btn img:hover{
+    transform: scale(1.1);
+    transition: 500ms ease-in-out;
+}
+
+.location-container{
+    display:flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.location-container img{
+    width: 40px;
+}
+
+.location-info{
+    display: flex;
+    align-content: flex-end;
+    justify-content: center;
+}
+
+.location{
+    margin-left:10px;
+}
+
+.location h1{
+    margin: 0;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.location h2{
+    margin: 0;
+    font-size: 20px;
+    color: #757575;
+    text-align: right;
+}
+
+.content{
+    display:flex;
+    align-items: flex-start;
+    align-content: space-between;
+}
+
+.container-left{
+    width: 900px;
+    margin-right: 20px;
+}
+
+
+
+.container-right{
+    margin-left: 20px;
+    width: 80%;
+}
+
+.air-quality-status{
+    display:flex;
+    align-items: center;
+    align-content: space-between;
+    margin-top: 20px;
+}
+
+.date{
+    font-style: normal;
+    font-weight: 500;
+    color: #757575;
+    font-size: 15px;
+}
+
+.circle-status-box{
+    width: 200px;
+    height: 200px;
+    background: #2542A6;
+    border-radius: 50%;
+    margin: 10px;
+}
+.air-quality-explanation{
+    background-color: rgba(240, 240, 240,0.8);
+    margin-left: 20px;
+    padding: 30px;
+    border-radius: 50px;
+    width: 50%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);;
+
+}
+.air-quality-explanation h1{
+    color: rgba(242, 180, 17, 1);
+    margin: 0;
+}
+
+.air-quality-explanation p{
+ margin: 0;   
+}
+
+.container-right{
+    background-color: rgba(240, 240, 240,0.8);
+    padding: 30px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);;
+
+}
+
+.tittle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+
+}
+
+.tittle h1 {
+    color: rgba(242, 180, 17, 1);
+    margin: 0;
+}
+
+.tittle h2{
+    font-style: normal;
+    font-weight: 500;
+    color: #757575;
+    font-size: 15px;
+}
+
+.pollutant-container{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+
+
+.status-circle{
+    background: #2542A6;
+    width: 150px;
+    height: 200px;
+    border-radius: 40px;
+    margin: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);;
+
+}
+
+.pollutant-details{
+    width: 80%;
+}
+
+.pollutant-details h1{
+    color: rgba(37, 66, 166, 1);
+}
+
+.pollutant-status{
+    text-align: right;
+    font-style: normal;
+    font-weight: 500;
+    color: #757575;
+    font-size: 15px;
+}
+
+.navbar-container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-10%);
+    transform: translateY(10%);
+    transition: 500ms ease-in-out;
+    
+}
+
+.navbar-icon-container{
+    background-color: rgba(37, 66, 166,0.7);
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    padding:30px;
+    margin-top: 70px;
+    width: 800px;
+    height: 40px;
+    
+}
+
+.icons{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+
+
+.icons:hover{
+    background-color: #91a3df;
+    transition: 500ms ease-in-out;
+}
+
+.icons-after-clicked{
+    border-radius: 50%;
+    padding: 20px;
+    background-color: #91a3df;
+}
+
+
+
+.icon{
+    width: 40px;
+    height: 40px;
+}
