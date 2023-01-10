@@ -40,15 +40,15 @@ body{
     box-shadow: -4px 5px 30px;
     width: 600px;
     height: 400px;
-    transition: all 0.5s;
+    transition: all 0.5s ease-in-out;
 }
 
 .slide-out {
-    transform: translateX(-100%);
-    opacity: 0;
+   /*  transform: translateX(-150%); */
+    opacity: 10%;
   }
   
   .slide-in {
-    transform: translateX(100%);
-    opacity: 0;
+  /*   transform: translateX(150%); */
+    opacity: 10%;
   }

@@ -14,7 +14,7 @@ const navIcon = document.getElementsByClassName('icons');
 
 const pageLink = [
     '/map.html',
-    '/date.html',
+    '/weekly.html',
     '/main-page.html',
     '/air-quality.html',
     '/activities.html'
