@@ -37,4 +37,15 @@ for(let i =0;i<navIcon.length;i++){
         
     })
 }
+
+const dateBoxClicker = ()=>{
+    const box = document.getElementsByClassName('date-box');
     
+    for(let i = 0; i<box.length;i++){
+        box[i].addEventListener('click',()=>{
+            window.location = '/weekly.html';
+        })
+    }
+}
+
+dateBoxClicker();

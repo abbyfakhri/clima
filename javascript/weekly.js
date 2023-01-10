@@ -25,3 +25,5 @@ for(let i =0;i<navIcon.length;i++){
         
     })
 }
+
+
