@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <title>weather API</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+    body{
+        background-color: black;
+        font-family: 'Poppins', sans-serif;
+    }
+    main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    input{
+        border-radius: 20px;
+        text-decoration: none;
+        border: 0;
+        width: 400px;
+        height: 30px;
+        outline: 0;
+        text-align: center;
+    }
+
+    .container{
+        margin-top: 200px;
+        background-color: orange;
+        border-radius: 20px;
+        width: 500px;
+        padding: 20px;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    li{
+        list-style: none;
+        font-weight: bolder;
+    }
+
+    button{
+        border: 0;
+        padding-inline: 10px;
+        border-radius: 20px;
+        height: 30px;
+    }
+
+
+
+</style>
+<body>
+    <main >
+        <div class="container">
+            <input type="text" name="" id="inputCity" placeholder="city">
+            <button id="button">search</button>
+            <h1 class="tittle">Weather Data</h1>
+            <ul>
+                <li >City: <span id="city"></span></li>
+                <li >Temp:<span id="temp"></span></li>
+                <li >Condition:<span id="condition"></span></li>
+                <li >Air Quality:<span id="air-quality"></span></li>
+            </ul>
+        </div>
+    </main>
+<script src="/backend-test/weather-api-test/dom.js"></script>    
+</body>
+</html>

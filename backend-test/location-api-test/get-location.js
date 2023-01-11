@@ -10,7 +10,7 @@ app.use((req, res, next) => {
     next()
   })
 
-
+app.use(express.json());
 
 
 const getPublicIp = ()=>{
@@ -53,16 +53,11 @@ const location = async() =>{
 
 
 app.get('/location', async (req, res) => {
-    let getLoc = await location();
-
-    const data = {
-        loc: getLoc
-    }
-
+    let getData = await location(req.city);
    
-    console.log(data);
+    console.log(getData);
 
-    res.json(data);
+    res.json(getData);
     console.log('data from SERVER')
     
 });
